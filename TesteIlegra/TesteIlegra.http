@@ -1,0 +1,6 @@
+@TesteIlegra_HostAddress = http://localhost:5032
+
+GET {{TesteIlegra_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
