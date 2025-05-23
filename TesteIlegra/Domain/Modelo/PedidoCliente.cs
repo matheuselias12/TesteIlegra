@@ -1,5 +1,8 @@
-﻿namespace TesteIlegra.Domain.Modelo
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace TesteIlegra.Domain.Modelo
 {
+    [ExcludeFromCodeCoverage]
     public class PedidoCliente
     {
         public Guid Id { get; set; }

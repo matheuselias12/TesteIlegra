@@ -1,8 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.CodeAnalysis;
 using TesteIlegra.Domain.Modelo;
 
 namespace TesteIlegra.Data
 {
+    [ExcludeFromCodeCoverage]
     public class AppDbContext : DbContext
     {
         public DbSet<Revenda> Revendas => Set<Revenda>();

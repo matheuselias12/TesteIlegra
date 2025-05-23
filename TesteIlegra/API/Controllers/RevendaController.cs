@@ -1,11 +1,13 @@
 ﻿using Azure;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Diagnostics.CodeAnalysis;
 using TesteIlegra.Domain.Modelo;
 using TesteIlegra.Service.Interface;
 
 namespace TesteIlegra.API.Controllers
 {
+    [ExcludeFromCodeCoverage]
     [ApiController]
     [Route("api/revendas")]
     public class RevendaController : ControllerBase

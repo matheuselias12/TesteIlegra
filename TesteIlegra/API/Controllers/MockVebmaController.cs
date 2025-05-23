@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics.CodeAnalysis;
 using TesteIlegra.Domain.Modelo;
 
 namespace TesteIlegra.API.Controllers
 {
+    [ExcludeFromCodeCoverage]
     [ApiController]
     public class MockVebmaController : ControllerBase
     {

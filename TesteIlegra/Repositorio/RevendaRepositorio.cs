@@ -1,10 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.CodeAnalysis;
 using TesteIlegra.Data;
 using TesteIlegra.Domain.Modelo;
 using TesteIlegra.Repositorio.Interface;
 
 namespace TesteIlegra.Repositorio
 {
+    [ExcludeFromCodeCoverage]
     public class RevendaRepositorio : IRevendaRepositorio
     {
         private readonly AppDbContext _contexto;

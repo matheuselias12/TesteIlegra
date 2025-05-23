@@ -1,7 +1,9 @@
-﻿using TesteIlegra.Domain.Modelo;
+﻿using System.Diagnostics.CodeAnalysis;
+using TesteIlegra.Domain.Modelo;
 
 namespace TesteIlegra.Repositorio
 {
+    [ExcludeFromCodeCoverage]
     public class RepositorioRevenda
     {
         private readonly List<Revenda> _revendas = new();

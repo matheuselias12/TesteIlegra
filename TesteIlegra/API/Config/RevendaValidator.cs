@@ -1,8 +1,10 @@
 ﻿using FluentValidation;
+using System.Diagnostics.CodeAnalysis;
 using TesteIlegra.Domain.Modelo;
 
 namespace TesteIlegra.API.Config
 {
+    [ExcludeFromCodeCoverage]
     public class RevendaValidator : AbstractValidator<Revenda>
     {
         public RevendaValidator()

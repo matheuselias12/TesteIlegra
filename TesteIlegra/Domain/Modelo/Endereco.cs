@@ -1,5 +1,8 @@
-﻿namespace TesteIlegra.Domain.Modelo
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace TesteIlegra.Domain.Modelo
 {
+    [ExcludeFromCodeCoverage]
     public class Endereco
     {
         public string Rua { get; set; } = string.Empty;
